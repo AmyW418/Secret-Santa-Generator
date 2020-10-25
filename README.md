@@ -1,6 +1,6 @@
 # Secret Santa Generator! 
-Actual Website: eager-gates-dcaa60.netlify.app/
-Video Demo: https://youtu.be/597GLLSYxBs
+Actual Website: eager-gates-dcaa60.netlify.app/ \
+Video Demo: https://youtu.be/597GLLSYxBs \
 Devpost: https://devpost.com/software/secret-santa-generator-7fh8lc?ref_content=user-portfolio&ref_feature=in_progress
 
 
