@@ -9,7 +9,7 @@ function GroupPage() {
 			<p>
 				* Name and email for each person is required!
 				<br></br>
-				* If no alerts pop up after submittion, the emails have been sent successfully! 
+				* If no alerts pop up after submission, the emails have been sent successfully! 
 			</p>
 			<ul className = "GroupList">
 				<PeopleForm />
