@@ -1,0 +1,84 @@
+.gpage {
+	text-align: center;
+	background-color: #000033;
+	background-image: url("https://i.pinimg.com/originals/33/3d/43/333d4349ddf1e487738f285eee9a71cb.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color:#ffcc66;
+	min-height: 100vh;
+}
+
+.Group {
+	overflow-y: auto;
+	max-height: 450px;
+}
+.GroupList {
+	list-style: none;
+}
+  li{
+	margin: 1rem;
+  }
+  .AddPerson {
+	display: flex;
+	position: relative;
+  }
+  .name,
+  .email,
+  .wishlist{
+	border-radius: 10rem;
+	height: calc(5vmin);
+	white-space: normal;
+	font-family: inherit;
+	font-size: calc(2.5vmin);
+	padding-left: calc(2vmin);
+	border: none;
+  }
+  .name {
+	width: calc(1rem + 20vmin);
+  }
+  .wishlist,
+  .email {
+	width: calc(1rem + 30vmin);
+  }
+  .remove {
+	border-radius: 10rem;
+	height: calc(10px + 5vmin);
+	white-space: normal;
+	width: calc(10px + 5vmin);
+	font-size: calc(4vmin);
+	background:#a9b6fc;
+  }
+
+  .submitButton,
+  .addButton  {
+	margin-top: 3rem;
+	border-radius: 10rem;
+	border: none;
+	height: calc(5vmin);
+	white-space: normal;
+	font-family: inherit;
+	font-size: calc(2.5vmin);
+	background:#f7d48e;
+  }
+
+  .submitButton{
+	width: calc(5rem + 10vmin);
+  }
+  .addButton {
+	width: calc(5rem + 15vmin);
+  }
+  .remove:hover{
+	cursor: pointer;
+	background:#6e8ef8;
+  }
+  .submitButton:hover,
+  .addButton:hover {
+	cursor: pointer;
+	background:#ffcc66;
+  }

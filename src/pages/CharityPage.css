@@ -1,0 +1,44 @@
+.CharityPage {
+	background-image: url("https://ak.picdn.net/shutterstock/videos/28857412/thumb/7.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color:#ffcc66;
+	display: flex;
+  }
+.cTitle{
+	margin-top: 10rem;
+	font-size: calc(10px + 2vmin);
+	color:#ffcc66;
+	max-width: 2rem;
+}
+.cImg{
+	max-height: 150px;
+
+}
+.ClassBlock{
+	min-height: 12rem;
+	background-image: url("https://us.123rf.com/450wm/karandaev/karandaev1305/karandaev130500152/19896111-night-dark-blue-sky-with-stars-abstract-background.jpg?ver=6");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-size: calc(10px + 1vmin);
+	border-radius: 20px;
+	text-align: center;
+	display: flex;
+  	justify-content: center;
+}
+
+.charityList{
+	list-style: none;
+	width: 100%;
+	display: grid;
+	min-height: 20rem;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto;
+	padding: 0.1em;
+}
+
+.cinfo{
+	max-width: 28rem;
+}
